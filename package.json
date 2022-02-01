@@ -10,12 +10,12 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:list-function-calls.helloWorld"
+        "onCommand:list-function-calls.GetList"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-            "command": "list-function-calls.helloWorld",
+            "command": "list-function-calls.GetList",
             "title": "Hello World"
 
 		}]
